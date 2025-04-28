@@ -1,0 +1,15 @@
+# crates/lambda/Cargo.toml
+[package]
+name = "lambda"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+http            = { path = "../http" }
+lambda_http     = "0.9"
+tokio           = { workspace = true }
+anyhow          = { workspace = true }
+axum            = { workspace = true }
+tower           = { workspace = true }
+hyper           = { workspace = true }
+firewall_core   = { path = "../core" }

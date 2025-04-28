@@ -1,0 +1,14 @@
+# crates/cli/Cargo.toml
+[package]
+name = "cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+http        = { path = "../http" }
+tokio       = { workspace = true }
+anyhow      = { workspace = true }
+axum        = { workspace = true }
+hyper       = { workspace = true }
+dotenvy     = "0.15"
+firewall_core = { path = "../core" }
