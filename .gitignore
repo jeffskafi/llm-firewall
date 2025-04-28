@@ -18,3 +18,9 @@ target/
 
 # VSCode
 .vscode/
+
+# Prompt files
+prompts/
+
+# Environment variables
+.env
